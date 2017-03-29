@@ -8,6 +8,6 @@ import com.showeasy.powereditorlib.span.Span;
 
 public interface ToolbarListener {
 
-    public <V> void onItemClicked(Class<V> spanClazz, V value);
+    public <V> void onItemClicked(Span<V> span, V value);
 
 }
